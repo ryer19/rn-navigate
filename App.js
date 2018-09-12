@@ -82,16 +82,16 @@ export default class App extends Component{
 //   }
 // }
 
-const styles = StyleSheet.create({
-  containerStyle: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center'
-  },
-  textStyle: {
-    fontSize: 60
-  }
-})
+// const styles = StyleSheet.create({
+//   containerStyle: {
+//     flex: 1,
+//     alignItems: 'center',
+//     justifyContent: 'center'
+//   },
+//   textStyle: {
+//     fontSize: 60
+//   }
+// })
 
 // the code below is fine for simple navigation
 // but to get more control over the component

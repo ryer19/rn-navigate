@@ -7,11 +7,15 @@ class AboutScreen extends Component {
       const { navigation } = this.props;
       // const { params } = this.props.navigation.state
       // let coderName = params.otherParam
-      const coderName = navigation.getParam('otherParam', 'Billy Bob')
+      const aName = navigation.getParam('aParam', 'Billy Bob')
+      const bName = navigation.getParam('bParam');
+      const cName = navigation.getParam('cParam');
       return (
       <View>
         <Text>About </Text>
-        <Text> {coderName}</Text>
+        <Text> {aName}</Text>
+        <Text> {bName}</Text>
+        <Text> {cName}</Text>
         <Button title="Home" onPress={() => {this.props.navigation.goBack()}} />
       </View>
       )
